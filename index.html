@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Zarejestruj się</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__heading">Zarejestruj się</h1>
+    </header>
+
+    <main class="main-content">
+      <section class="general">
+        <h2 class="general__heading">Podstawowe informacje</h2>
+        <form class="person" action="">
+          <p class="person__name">
+            <label class="person__label" for="firstName">Imię:</label>
+            <input
+              class="person__input"
+              type="text"
+              placeholder="Wpisz imię"
+              id="firstName"
+              name="firstName"
+            />
+          </p>
+        </form>
+      </section>
+      <section class="contact">
+        <h2 class="contact__heading"></h2>
+      </section>
+    </main>
+  </body>
 </html>
