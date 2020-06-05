@@ -26,6 +26,66 @@
               name="firstName"
             />
           </p>
+          <p class="person__last-name">
+            <label class="person__label" for="lastName">Nazwisko:</label>
+            <input
+              class="person__input"
+              type="text"
+              placeholder="Wpisz nazwisko"
+              id="lastName"
+              name="lastName"
+            />
+          </p>
+          <p class="person__sex">
+            <label for="sex" class="person__label">Płeć:</label>
+            <select name="sex" id="sex" class="person__choice">
+              <option value="male">Mężczyzna</option>
+              <option value="male">Kobieta</option>
+            </select>
+          </p>
+          <p class="person__subscription">
+            <label for="subscription" class="person__label">Okres subskrypcji:</label>
+            <select name="subscription" id="subscription" class="person__choice">
+              <option value="1-month">1 msc.</option>
+              <option value="3-months">3 msc.</option>
+              <option value="6-months">6 msc.</option>
+            </select>
+          </p>
+          <p class="person__age">
+            <label class="person__label" for="age">Wiek</label>
+            <input
+              class="person__input"
+              type="number"
+              min="0"
+              max="100"
+              placeholder="Podaj wiek"
+              id="age"
+              name="age"
+            />
+          </p>
+          <p class="person__username">
+            <label class="person__label" for="password">Nazwa użytkownika:</label>
+            <input
+              class="person__input"
+              type="text"
+              placeholder="Podaj nazwę użytkownika"
+              id="username"
+              name="username"
+              required
+            />
+          </p>
+          <p class="person__password">
+            <label class="person__label" for="password">Hasło (minimum 8 znaków):</label>
+            <input
+              class="person__input"
+              type="password"
+              placeholder="Wpisz hasło"
+              minlength="8"
+              id="password"
+              name="password"
+              required
+            />
+          </p>
         </form>
       </section>
       <section class="contact">
