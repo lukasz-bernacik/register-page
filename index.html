@@ -13,9 +13,9 @@
     </header>
 
     <main class="main-content">
-      <section class="general">
-        <h2 class="general__heading">Podstawowe informacje</h2>
-        <form class="person" action="">
+      <form class="person" action="">
+        <section class="general">
+          <h2 class="general__heading">Podstawowe informacje</h2>
           <p class="person__name">
             <label class="person__label" for="firstName">Imię:</label>
             <input
@@ -44,8 +44,14 @@
             </select>
           </p>
           <p class="person__subscription">
-            <label for="subscription" class="person__label">Okres subskrypcji:</label>
-            <select name="subscription" id="subscription" class="person__choice">
+            <label for="subscription" class="person__label"
+              >Okres subskrypcji:</label
+            >
+            <select
+              name="subscription"
+              id="subscription"
+              class="person__choice"
+            >
               <option value="1-month">1 msc.</option>
               <option value="3-months">3 msc.</option>
               <option value="6-months">6 msc.</option>
@@ -64,7 +70,9 @@
             />
           </p>
           <p class="person__username">
-            <label class="person__label" for="password">Nazwa użytkownika:</label>
+            <label class="person__label" for="password"
+              >Nazwa użytkownika:</label
+            >
             <input
               class="person__input"
               type="text"
@@ -75,7 +83,9 @@
             />
           </p>
           <p class="person__password">
-            <label class="person__label" for="password">Hasło (minimum 8 znaków):</label>
+            <label class="person__label" for="password"
+              >Hasło (minimum 8 znaków):</label
+            >
             <input
               class="person__input"
               type="password"
@@ -86,11 +96,11 @@
               required
             />
           </p>
-        </form>
-      </section>
-      <section class="contact">
-        <h2 class="contact__heading"></h2>
-      </section>
+        </section>
+        <section class="contact">
+          <h2 class="contact__heading">Dane kontaktowe</h2>
+        </section>
+      </form>
     </main>
   </body>
 </html>
