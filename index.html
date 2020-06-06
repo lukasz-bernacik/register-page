@@ -14,9 +14,9 @@
 
     <main class="main-content">
       <form class="person" action="">
-        <section class="general">
-          <h2 class="general__heading">Podstawowe informacje</h2>
-          <p class="person__name">
+        <section class="person__general">
+          <h2 class="person__heading">Podstawowe informacje</h2>
+          <p>
             <label class="person__label" for="firstName">Imię:</label>
             <input
               class="person__input"
@@ -26,7 +26,7 @@
               name="firstName"
             />
           </p>
-          <p class="person__last-name">
+          <p>
             <label class="person__label" for="lastName">Nazwisko:</label>
             <input
               class="person__input"
@@ -36,14 +36,14 @@
               name="lastName"
             />
           </p>
-          <p class="person__sex">
+          <p>
             <label for="sex" class="person__label">Płeć:</label>
             <select name="sex" id="sex" class="person__choice">
               <option value="male">Mężczyzna</option>
               <option value="male">Kobieta</option>
             </select>
           </p>
-          <p class="person__subscription">
+          <p>
             <label for="subscription" class="person__label"
               >Okres subskrypcji:</label
             >
@@ -57,7 +57,7 @@
               <option value="6-months">6 msc.</option>
             </select>
           </p>
-          <p class="person__age">
+          <p>
             <label class="person__label" for="age">Wiek</label>
             <input
               class="person__input"
@@ -69,7 +69,7 @@
               name="age"
             />
           </p>
-          <p class="person__username">
+          <p>
             <label class="person__label" for="password"
               >Nazwa użytkownika:</label
             >
@@ -82,7 +82,7 @@
               required
             />
           </p>
-          <p class="person__password">
+          <p>
             <label class="person__label" for="password"
               >Hasło (minimum 8 znaków):</label
             >
@@ -97,8 +97,52 @@
             />
           </p>
         </section>
-        <section class="contact">
-          <h2 class="contact__heading">Dane kontaktowe</h2>
+        <section class="person__contact">
+          <h2 class="person__heading">Dane kontaktowe</h2>
+          <p>
+            <label class="person__label person__label--color" for="country">Kraj:</label>
+            <input
+              class="person__input"
+              type="text"
+              placeholder="Podaj kraj"
+              id="country"
+              name="country"
+            />
+          </p>
+          <p>
+            <label class="person__label person__label--color" for="country">Kraj:</label>
+            <input
+              class="person__input"
+              type="text"
+              placeholder="Podaj kraj"
+              id="country"
+              name="country"
+            />
+          </p>
+          <p>
+            <label class="person__label person__label--color" for="zip-code"
+              >Kod pocztowy:</label
+            >
+            <input
+              class="person__input"
+              type="text"
+              inputmode="numeric"
+              placeholder="Podaj kod pocztowy"
+              id="zip-code"
+              name="zip-code"
+              pattern="[0-9]{2}\-[0-9]{3}"
+            />
+          </p>
+          <p>
+            <label class="person__label person__label--color" for="country">Kraj:</label>
+            <input
+              class="person__input"
+              type="text"
+              placeholder="Podaj kraj"
+              id="country"
+              name="country"
+            />
+          </p>
         </section>
       </form>
     </main>
