@@ -98,13 +98,13 @@
           </p>
         </section>
         <section class="person__contact">
-          <h2 class="person__heading">Dane kontaktowe</h2>
+          <h2 class="person__heading person__heading--color">Dane kontaktowe</h2>
           <p>
             <label class="person__label person__label--color" for="country"
               >Kraj:</label
             >
             <input
-              class="person__input"
+              class="person__input person__input--color"
               type="text"
               placeholder="Podaj kraj"
               id="country"
@@ -116,7 +116,7 @@
               >Miasto:</label
             >
             <input
-              class="person__input"
+              class="person__input person__input--color"
               type="text"
               placeholder="Podaj miasto"
               id="city"
@@ -128,7 +128,7 @@
               >Kod pocztowy:</label
             >
             <input
-              class="person__input"
+              class="person__input person__input--color"
               type="text"
               inputmode="numeric"
               placeholder="Podaj kod pocztowy"
@@ -142,7 +142,7 @@
               >Ulica:</label
             >
             <input
-              class="person__input"
+              class="person__input person__input--color"
               type="text"
               placeholder="Podaj ulicę"
               id="street"
@@ -154,7 +154,7 @@
               >Numer domu:</label
             >
             <input
-              class="person__input"
+              class="person__input person__input--color"
               type="number"
               placeholder="Podaj numer domu"
               id="home-number"
@@ -166,7 +166,7 @@
               >Nr telefonu:</label
             >
             <input
-              class="person__input"
+              class="person__input person__input--color"
               type="tel"
               placeholder="Podaj numer telefonu"
               id="phone"
@@ -179,7 +179,7 @@
               >Email:</label
             >
             <input
-              class="person__input"
+              class="person__input person__input--color"
               type="email"
               placeholder="Podaj email"
               id="email"
@@ -188,13 +188,14 @@
             />
           </p>
           <p>
-            <label class="person__label person__label--color">
-              <input type="checkbox" name="agreement" value="agree" />
+            <label class="person__label person__label--checkbox">
+              <input class="person__checkbox"type="checkbox" name="agreement" value="agree" />
               Rejestrując się akceptuję regulamin strony.
             </label>
           </p>
-          <p>
+          <p class="person__submit-holder">
             <input
+              class="person__submit"
               type="submit"
               name="register"
               id="register"
