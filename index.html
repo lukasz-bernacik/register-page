@@ -36,14 +36,14 @@
               name="lastName"
             />
           </p>
-          <p>
+          <p class="person__choice-holder person__choice-holder--first">
             <label for="sex" class="person__label">Płeć:</label>
             <select name="sex" id="sex" class="person__choice">
               <option value="male">Mężczyzna</option>
               <option value="male">Kobieta</option>
             </select>
           </p>
-          <p>
+          <p  class="person__choice-holder">
             <label for="subscription" class="person__label"
               >Okres subskrypcji:</label
             >
@@ -98,7 +98,9 @@
           </p>
         </section>
         <section class="person__contact">
-          <h2 class="person__heading person__heading--color">Dane kontaktowe</h2>
+          <h2 class="person__heading person__heading--color">
+            Dane kontaktowe
+          </h2>
           <p>
             <label class="person__label person__label--color" for="country"
               >Kraj:</label
@@ -189,7 +191,12 @@
           </p>
           <p>
             <label class="person__label person__label--checkbox">
-              <input class="person__checkbox"type="checkbox" name="agreement" value="agree" />
+              <input
+                class="person__checkbox"
+                type="checkbox"
+                name="agreement"
+                value="agree"
+              />
               Rejestrując się akceptuję regulamin strony.
             </label>
           </p>
